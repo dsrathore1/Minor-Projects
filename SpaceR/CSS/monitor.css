@@ -1,0 +1,30 @@
+:root {
+    --darkgrey: #080808;
+    --bright-red: #d82020;
+    --white: white;
+    --light-red: #eb6262;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-monitoring h2{
+    font-size: 30px;
+    font-family: var(--poppins);
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.content-monitoring p{
+    font-family: var(--roboto);
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 2.3rem;
+    font-size: 18px;
+}
