@@ -34,7 +34,7 @@
     grid-template-columns: 1fr 1fr;
     height: 50vh;
     align-items: center;
-    
+
     justify-self: center;
     width: 96%;
     margin: 0 auto;
@@ -43,6 +43,7 @@
 .main-content p {
     font-size: 1.2rem;
     font-feature-settings: var(--poppins);
+    width: 98%;
 }
 
 .main-img-container img {
@@ -51,7 +52,7 @@
     margin-left: 12rem;
     position: relative;
     top: 30px;
-    
+
 }
 
 .main-btn {
@@ -74,6 +75,14 @@
     background-color: #1e6ed6;
 }
 
+.wave {
+    margin: 0;
+    position: relative;
+    top: 15px;
+    transition: all .5s ease-in;
+}
+
+
 @media screen and (max-width: 760px) {
 
     .main-container {
@@ -95,9 +104,8 @@
     .main-content p {
         font-size: 1.6rem;
         text-align: justify;
-        /* margin-bottom: 2rem; */
     }
-
+    
     .main-btn {
         top: 50%;
         left: 50%;
@@ -111,18 +119,13 @@
     }
 }
 
-.wave {
-    margin: 0;
-    position: relative;
-    top: 15px;
-    transition: all .5s ease-in;
-}
 
 @media screen and (max-width: 1015px) {
-    .wave{
+    .wave {
         display: none;
     }
-    .main-container{
+
+    .main-container {
         height: 100vh;
     }
 }
