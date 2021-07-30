@@ -5,6 +5,7 @@
 @import url("Tracking.css");
 @import url("Monitor.css");
 @import url("Email.css");
+@import url("Footer.css");
 
 :root {
     --darkgrey: #080808;
