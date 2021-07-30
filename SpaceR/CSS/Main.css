@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@100;300&display=swap');
 
-@import url("content.css");
-@import url("body.css");
-@import url("tracking.css");
-@import url("monitor.css");
+@import url("HomePage.css");
+@import url("Brands.css");
+@import url("Tracking.css");
+@import url("Monitor.css");
+@import url("Email.css");
 
 :root {
     --darkgrey: #080808;

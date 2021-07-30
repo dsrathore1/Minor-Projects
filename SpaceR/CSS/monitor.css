@@ -65,3 +65,20 @@
     margin-left: 3rem;
 }
 
+@media screen and (max-width: 870px) {
+    .svg-img-data img{
+        display: none;
+    }
+.content-monitoring h2
+{
+    text-align: center;
+    font-size: 23px;
+}
+    .content-monitoring p{
+       text-align: center;
+       font-size: 16px;
+    }
+    .monitoring-link{
+        text-align: center;
+    }
+}
