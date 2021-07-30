@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@100;300&display=swap');
+
+:root {
+    --darkgrey: #080808;
+    --bright-red: #d82020;
+    --white: white;
+    --light-red: #eb6262;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    background-color: var(--darkgrey);
+    color: var(--white);
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.heading1 {
+    font-size: 45px;
+    cursor: default;
+    margin-bottom: 5rem;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+    align-items: center;
+    
+    justify-self: center;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    font-feature-settings: var(--poppins);
+}
+
+.main-img-container img {
+    height: 95%;
+    width: 75%;
+    margin-left: 12rem;
+    position: relative;
+    top: 30px;
+    
+}
+
+.main-btn {
+    margin-top: 40px;
+    background-color: var(--bright-red);
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    padding: 10px 5rem;
+    transition: all .3s ease;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.main-btn:hover {
+    padding: 10px 5rem;
+    background-color: #1e6ed6;
+}
+
+@media screen and (max-width: 760px) {
+
+    .main-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
+        background-color: var(--darkgrey);
+    }
+
+    .heading1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .main-content p {
+        font-size: 1.6rem;
+        text-align: justify;
+        /* margin-bottom: 2rem; */
+    }
+
+    .main-btn {
+        top: 50%;
+        left: 50%;
+        margin-top: 4rem;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .main-img-container img {
+        display: none;
+    }
+}
+
+.wave {
+    margin: 0;
+    position: relative;
+    top: 15px;
+    transition: all .5s ease-in;
+}
+
+@media screen and (max-width: 1015px) {
+    .wave{
+        display: none;
+    }
+    .main-container{
+        height: 100vh;
+    }
+}
