@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto:wght@100;300&display=swap');
+
+:root {
+    --dark_background: #08080f;
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins);
+}
+
+body {
+    background: linear-gradient(rgba(20, 20, 20, 0.301), rgba(20, 20, 20, 0.301)), url("https://source.unsplash.com/1600x900/?Landscape") no-repeat;
+    object-fit: contain;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.btn {
+    padding: 10px 29px;
+    border-radius: 4px;
+    border-color: #ffad49;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    height: 85vh;
+    align-items: center;
+}
+
+.card {
+    background-color: #0000009f;
+    padding: 2.4em 3em;
+    margin: 1rem;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    transition: all .5s ease-in-out;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 3em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100%-80px);
+}
+
+.btn2 {
+    color: #ffffff;
+    background-color: #7c7c7c2b;
+    outline: none;
+    margin-left: 21px;
+    height: 44px;
+    width: 44px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border-radius: 50%;
+
+}
+
+
+.weather2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city {
+    font-size: 1.9rem;
+}
+
+.temp {
+    font-size: 3em;
+    margin: .2em 0;
+}
+
+.description {
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.humidity {
+    margin-bottom: .3rem;
+}
+
+@media screen and (max-width:680px) {
+    .card {
+        padding: 6px 30px 6em 30px;
+        margin: .8rem;
+        height: 100vh;
+    }
+
+    .search-bar {
+        padding: 0.2rem 2.5rem;
+    }
+
+    .search {
+        margin-top: 3em;
+    }
+
+    .btn2 {
+        width: 34px;
+        height: 34px;
+
+    }
+
+    .city {
+        font-size: 1.6rem;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .temp {
+        font-size: 2.5em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .description {
+        margin-left: 12px;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+    .humidity {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: 20px;
+    }
+
+    .wind {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .card {
+        background-color: transparent;
+        color: white;
+        padding: 0;
+
+    }
+
+    body {
+        background: linear-gradient(rgba(88, 88, 88, 0.301), rgba(88, 88, 88, 0.13)), url("https://source.unsplash.com/random/1600x1400") no-repeat;
+    }
+
+}
