@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #12102c;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors li {
+    display: flex;
+    align-items: center;
+    padding: 1.4rem 4rem;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 4rem;
+    margin-left: .6rem;
+    border-radius: 4px;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+
+.center-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    height: 80vh;
+    margin-top: 2rem;
+}
+
+.circle{
+    display: flex;
+    background-color: white;
+    padding: 15rem;
+    border-radius: 50%;
+}
