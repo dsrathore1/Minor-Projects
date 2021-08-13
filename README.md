@@ -34,3 +34,8 @@
 <h1 align = "center">#6 Clock App</h1>
 
 <img src="https://github.com/dsrathore1/Minor-Projects/blob/master/Images/Clock%20App.png"></div>
+
+<div algin = "center">
+<h1 align = "center">#7 Color Switcher</h1>
+
+<img src="https://github.com/dsrathore1/Minor-Projects/blob/master/Color%20Switcher/Color-Switcher%20GIF.gif"></div>
