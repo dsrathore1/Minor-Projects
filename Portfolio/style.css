@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav_bar {
+    justify-content: space-around;
+    background-color: #313131;
+    display: flex;
+}
+
+.logo {
+    margin: 1.2rem 0;
+
+}
+
+.menu_list {
+    display: flex;
+    margin: 1.2rem 0;
+
+}
+
+.menu_list a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    transition: all 0.5s ease-in;
+    padding: 12px 18px;
+}
+
+.menu_list li :hover {
+
+    background-color: #E13D32;
+    padding: 12px 18px;
+
+}
+
+
+.menu_list li {
+    list-style: none;
+}
