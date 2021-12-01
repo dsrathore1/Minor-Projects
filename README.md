@@ -39,3 +39,8 @@
 <h1 align = "center">#7 Color Switcher</h1>
 
 <img src="https://github.com/dsrathore1/Minor-Projects/blob/master/Color%20Switcher/Color-Switcher%20GIF.gif"></div>
+
+<div algin = "center">
+<h1 align = "center">#8 Color Changer with Vanilla JS</h1>
+
+<img src="https://github.com/dsrathore1/Minor-Projects/blob/master/Color%20Changer/Assets/Changer.gif"></div>
