@@ -44,3 +44,8 @@
 <h1 align = "center">#8 Color Changer with Vanilla JS</h1>
 
 <img src="https://github.com/dsrathore1/Minor-Projects/blob/master/Color%20Changer/Assets/Changer.gif"></div>
+
+<div algin = "center">
+<h1 align = "center">#9 Car Driving</h1>
+
+<img src="https://github.com/dsrathore1/Minor-Projects/blob/master/Drive%20Car/assets/Car-Driving.gif"></div>
