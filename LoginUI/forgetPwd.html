@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./signInStyle.css">
-        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <title>Login UI</title>
+    <link rel="stylesheet" href="./forgetPwdStyle.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Forget Password</title>
 </head>
 
 <body>
@@ -18,8 +18,9 @@
         <div class="background">
 
             <div class="box">
-                <h2 class="heading1">Login with your<br><strong>NiceShuffle</strong> Account</h2>
-
+                <h2 class="heading1"><strong>Use this form to reset your <br> forgotten old password </strong></h2>
+                <p class="para">Enter the email address you registered with and we will send you a link to reset your
+                    password.</p>
                 <form class="inputContainer">
                     <div class="emailContainer">
                         <div class="iconContainer">
@@ -28,20 +29,12 @@
                         <input title="Please enter the valid email address" class="emailInput" type="text" required>
                         <span class="floatingEmail">Email</span>
                     </div>
-                    <div class="pwdContainer">
-                        <div class="iconContainer">
-                            <i class="fas fa-lock lockIcon"></i>
-                        </div>
-                        <input id="pwdInput" title="Please provide the strong password" class="pwdInput" type="password"
-                            required>
-                        <span class="floatingPwd">Password</span>
-                        <i class="far fa-eye eyeSec" id="eyeSec" onclick=Toggle()></i>
-                    </div>
-                    <div class="forgetPwd"><a href="./forgetPwd.html">Forget Password?</a></div>
-                    <button type="submit" class="btn">Login</button>
+                    <button type="submit" class="btn">Reset Password</button>
                 </form>
-                <div class="confirmation"></div>
-                <div class="route">Don't have an account? <a href="./signUpPage.html">SignUp</a></div>
+                <div class="routes">
+                    <div class="route"><a href="./signIn.html">Back to login page</a></div>
+                    <div class="route"><a href="./signUpPage.html">Register of a new account</a></div>
+                </div>
             </div>
         </div>
     </div>

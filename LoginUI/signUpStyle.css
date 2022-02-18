@@ -232,25 +232,12 @@ input:focus~.floatingCPwd {
     border-radius: 2rem;
     box-shadow: 1px 3px 12px 0 rgb(97 97 97 / 16%);
     transition: all 0.3s ease-in-out;
+    margin-top: 3rem;
 }
 
 .btn:active{
     transform: translateY(3px);
 }
-
-
-.forgetPwd{
-    width: 100%;
-    display:flex;
-    justify-content: right;
-    margin-bottom: 2rem;
-}
-
-.forgetPwd a{
-    color: #5151ff;
-    text-decoration: none;
-}
-
 
 .route{
     color: #d1d1d1;
