@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+                                                /* Main Container */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    width: 100%;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 8px 0 #00000054, 0 0 20px 0 #00000054;
+}
+
+                                                    /* Headings  */
+
+.heading1 {
+    margin: 1rem 0;
+    text-decoration: none;
+    color: #81c9e6;
+}
+
+.heading2 {
+    color: #000000;
+    text-decoration: none;
+    margin: 1rem 0;
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #ffffff;
+    padding: 3rem 5rem;
+    border-radius: 2.5rem;
+    box-shadow: 5px 10px 18px #0000006c;
+    background-color: black;
+}
+
+.bg {
+    display: grid;
+    min-height: calc(100vh - 3rem);
+    align-content: space-evenly;
+    place-items: center;
+}
+
+.change-color {
+    color: #ffffff;
+}
+
+                                                     /* Button */
+
+.btn {
+    padding: 1rem 4em;
+    font-family: 'Arvo', serif;
+    font-size: 17px;
+    border: 2.8px solid black;
+    color: black;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
