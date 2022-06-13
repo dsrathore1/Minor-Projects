@@ -1,0 +1,35 @@
+<%- include("include/header.ejs")%>
+
+<div class="container">
+  <div class="mainContainer">
+    <div class="topTitle">
+      <h2 class="title2">Login</h2>
+      <p class="para">Welcome to Unosco</p>
+    </div>
+    <form action="/" method="post">
+      <div class="inputArea">
+        <div class="inputContainer">
+          <label class="name">Name</label>
+          <input type="text" name="name" class="nameI" placeholder="Enter your name">
+        </div>
+        <div class="inputContainer">
+          <label class="username">Username</label>
+          <input type="text" name="username" class="usernameI" placeholder="Enter your username">
+        </div>
+        <div class="inputContainer">
+          <label class="email">Email</label>
+          <input type="text" name="email" class="emailI" placeholder="Enter your email">
+        </div>
+        <div class="forgetPwd">
+          <a href="/">Forget Password ?</a>
+        </div>
+        <div class="btn">
+          <button type="submit" class="loginBtn">Login</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<%- include("include/footer.ejs")%>

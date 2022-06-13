@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background: #fdfdfd;
+}
+
+.container{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.mainContainer{
+  box-shadow: 0 12px 22px 0 #bbb;
+  padding: 1rem .9rem 3rem .9rem;
+  background: #fff;
+}
+
+.title2{
+  margin-bottom: 10px;
+}
+.para{
+  margin-bottom: 5rem;
+}
+
+.inputArea{
+  margin-bottom: 2rem;
+  width: 30vw;
+}
+
+.inputContainer{
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.emailI{
+  margin-left: 2rem;
+}
+
+.nameI{
+  margin-left: 2rem;
+}
+
+.forgetPwd{
+  width: 40vw;
+  padding-left: 2rem;
+}
+
+.forgetPwd a{
+  text-decoration: none;
+  color: #2a2abb;
+}
+
+input{
+  padding: .3rem .8rem .3rem .5rem;
+  outline: none;
+}
+
+.btn{
+  position: absolute;
+  bottom: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBtn{
+  font-size: 18px;
+  padding: .3rem 3rem;
+  border: none;
+  outline: none;
+  background: #ff5f5f;
+  color: #fff;
+  box-shadow: 3px 6px 12px 0 #bbb;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 30vw;
+  transition: all .3s ease-in-out;
+}
+
+.loginBtn:active{
+  transform: scale(.8);
+}
+
+footer{
+  text-align: center;
+}
